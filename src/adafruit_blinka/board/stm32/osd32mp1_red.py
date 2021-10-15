@@ -21,7 +21,6 @@ D17 = pin.PG8
 D18 = pin.PI5
 D19 = pin.PI7
 D20 = pin.PI6
-D20 = pin.PI6
 D21 = pin.PE11
 D22 = pin.PG15
 D23 = pin.PF1
