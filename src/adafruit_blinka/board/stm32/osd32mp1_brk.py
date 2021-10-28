@@ -1,6 +1,6 @@
 """Pin definitions for the Octavo OSD32MP1 BRK board."""
 
-# See: https://octavosystems.com/octavosystems.com/wp-content/uploads/2020/05/Default-Pin-Mapping.pdf
+# See: https://octavosystems.com/octavosystems.com/wp-content/uploads/2020/05/Default-Pin-Mapping.pdf  # pylint: disable=line-too-long
 
 from adafruit_blinka.microcontroller.stm32.stm32mp157 import pin
 
