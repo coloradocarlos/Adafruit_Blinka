@@ -6,6 +6,7 @@ from adafruit_blinka.microcontroller.stm32.stm32mp157 import pin
 
 # Board pin name = OSD32MP1 pin name = STM32MP1 pin name
 
+# fmt: off
 # --------------------------------
 # Header Location A
 # --------------------------------
@@ -141,6 +142,7 @@ GPIO_PF11 = PF11 = pin.PF11  # D27
 GPIO_PD13 = PD13 = pin.PD13  # D28
 # GND - VSS                    D29
 # GND - VSS                    D30
+# fmt: on
 
 # I2C defaults
 SDA1 = SDA = I2C1_SDA
