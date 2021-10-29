@@ -53,7 +53,7 @@ SPI2_MISO = PI2 = pin.PI4    # B06
 GPIO_PH15 = PH15 = pin.PH15  # B07
 I2C1_SDA = PH12 = pin.PH12   # B08
 GPIO_PH10 = PH10 = pin.PH10  # B09
-GPIO_PH15 = PE15 = pin.PE15  # B10
+GPIO_PE15 = PE15 = pin.PE15  # B10
 SPI4_SCK = PE12 = pin.PE12   # B11
 GPIO_PH4 = PH4 = pin.PH4     # B12
 SPI4_MOSI = PE13 = pin.PE13  # B13
