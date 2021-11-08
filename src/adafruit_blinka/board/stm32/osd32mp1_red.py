@@ -3,6 +3,8 @@
 from adafruit_blinka.microcontroller.stm32.stm32mp157 import pin
 
 # RPi header JP20
+D0 = pin.PF15
+D1 = pin.PD12
 D2 = pin.PA12
 D3 = pin.PA11
 D4 = pin.PI11
@@ -30,21 +32,18 @@ D25 = pin.PF4
 D26 = pin.PF5
 D27 = pin.PD7
 
-SDA = D2
-SCL = D3
+I2C5_SDA = SDA = D2
+I2C5_SCL = SCL = D3
 
-SDA1 = pin.PF15
-SCL1 = pin.PD12
+I2C1_SDA = SDA1 = D0
+I2C1_SCL = SCL1 = D1
 
-SCLK = D11
-MOSI = D10
-MISO = D9
+SPI5_SCLK = SCLK = SCK = D11
+SPI5_MOSI = MOSI = D10
+SPI5_MISO = MISO = D9
+SPI5_NSS = CS = CE0 = D8
 
-CE0 = D8
-CE1 = D7
-
-CS = CE0
-SCK = SCLK
+PI_GPIO7 = CE1 = D7
 
 UART_TX = D14
 UART_RX = D15
