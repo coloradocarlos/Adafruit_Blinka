@@ -47,3 +47,7 @@ PI_GPIO7 = CE1 = D7
 
 UART_TX = D14
 UART_RX = D15
+
+# Console UART
+UART4_TX = pin.PG11
+UART4_RX = pin.PB2
